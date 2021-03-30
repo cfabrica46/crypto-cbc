@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+
 	key := []byte("12345678901234567890123456789012")
 	iv := []byte("1234567890123456")
 
@@ -30,7 +31,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	//dataEncriptada, err := ioutil.ReadFile("image.jpg.enc")
+	//	dataEncriptada, err := ioutil.ReadFile("image.enc")
 
 	//	if err != nil {
 	//		log.Fatal(err)
